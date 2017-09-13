@@ -12,8 +12,8 @@ def Mixed_KSG(x,y,k=5):
 		Estimate the mutual information I(X;Y) of X and Y from samples {x_i, y_i}_{i=1}^N
 		Using *Mixed-KSG* mutual information estimator
 
-		Input: x: 2D list of size N*d_x (or 1D list of size N if d_x = 1)
-		y: 2D list of size N*d_y (or 1D list of size N if d_y = 1)
+		Input: x: 2D array of size N*d_x (or 1D list of size N if d_x = 1)
+		y: 2D array of size N*d_y (or 1D list of size N if d_y = 1)
 		k: k-nearest neighbor parameter
 
 		Output: one number of I(X;Y)
