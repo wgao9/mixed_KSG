@@ -11,7 +11,8 @@ Sample Usage:
     
 Input
 
-    X -- 2D array of size N by d_x (1D array of size N if d_x = 1)
+    X -- 2D array of size N by d_x (1D array of size N if d_x = 1)
+    
     Y -- 2D array of size N by d_y (1D array of size N if d_y = 1)
     
 Output
